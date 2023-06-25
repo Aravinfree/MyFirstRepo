@@ -1,0 +1,48 @@
+
+
+1.) Read/Write Excel Data Using Apache POI 
+2.) How to read Properties files in Selenium
+3.) How to read Database using Selenium
+4.) Selenium Grid
+5.) Page Object model
+      - Page classes
+	  - Page factories
+6.) Try Catch  block
+7.) different types of Exceptions
+8.) Implicit, Explicit and Fluent wait
+9.) Log4J reportings
+10.) Jenkins CICD pipeline
+11.) TestNG - Framework
+12.) Cucumber - Framework
+13.) API testing 
+      - How to automate Request and Response
+	  - Rest Assured Libraries
+	  - Status codes
+14.) Selenium
+      - Selenium 3 vs Selenium 4
+	  - Action Classes
+	  - Rightclick,Doubleclick,MouseHoever, Tooltip - Keyboard mouse operations
+	  - Webtable 
+	  - How to read CSV file 
+	  - How to read JSON file
+	  - Alerts, Windows, tabs, Frames(SwitchToFrame, IFrames)
+	  - Upload file in Selenium
+	  - Capture screenshot in Selenium
+	  - WebDriver Manager
+	  - Options and preferences for browser
+	  - TestNG Listeners
+	  - Soft Assert and Hard Assert
+	  - Taking screenshot for failed cases
+15.) Java
+       - OOps concept
+	   - Collections
+	   - Exception handling
+	   - Java 8 features - Functional programming interface, Lambda expressions
+	   - Thread concepts
+	   - String programs
+	   - Java programs
+	        - Palindrome
+			- Factorial
+			- Fibonacci
+			- Prime number
+			- 
