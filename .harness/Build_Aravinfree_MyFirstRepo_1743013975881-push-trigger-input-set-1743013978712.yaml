@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Aravinfree_MyFirstRepo_1743013975881-push-trigger-input-set
+  identifier: Build_Aravinfree_MyFirstRepo_1743013975881pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Project_1122
+  pipeline:
+    identifier: Build_Aravinfree_MyFirstRepo_1743013975881
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
