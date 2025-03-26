@@ -17,14 +17,18 @@ pipeline:
                   name: Echo Welcome Message
                   identifier: Echo_Welcome_Message
                   spec:
+                    connectorRef: DockerConnector
+                    image: hello
                     shell: Sh
                     command: echo "Welcome to Harness CI"
-          platform:
-            os: Linux
-            arch: Amd64
-          runtime:
-            type: Cloud
-            spec: {}
+          infrastructure:
+            type: KubernetesDirect
+            spec:
+              connectorRef: Kubectl
+              namespace: default
+              automountServiceAccountToken: true
+              nodeSelector: {}
+              os: Linux
   properties:
     ci:
       codebase:
